@@ -1,10 +1,17 @@
 app_name = "sidebar_collapsed_default"
 app_title = "Sidebar Collapsed Default"
 app_publisher = "Nasr Systems"
-app_description = "Collapses Sidebar by default. Helps use screen real-estate better on small screens"
+app_description = (
+    "Collapses Sidebar by default. Helps use screen real-estate better on small screens"
+)
 app_email = "baaridun@gmail.com"
 app_license = "mit"
-# required_apps = []
+
+
+# changes in hooks start
+required_apps = ["frappe"]
+app_include_js = ["collapse_sidebar.bundle.js"]
+# changes in hooks end
 
 # Includes in <head>
 # ------------------
@@ -226,4 +233,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
