@@ -2,7 +2,19 @@
 
 Collapses Sidebar by default on all desk pages. Helps use screen real-estate better on small screens
 
-Test on Frappe v15
+Tested on Frappe v15
+
+## Installation
+
+```bash
+
+bench get-app https://github.com/Nasr-Systems/sidebar_collapsed_default
+
+bench --site <insert your site name here> install-app sidebar_collapsed_default
+
+bench migrate
+
+```
 
 #### License
 
