@@ -1,3 +1,5 @@
+# ARCHIVED DUE TO PLANNED CHANGES IN V16 SIDEBAR UI.
+
 ## Sidebar Collapsed Default
 
 Collapses Sidebar by default on all desk pages. Helps use screen real-estate better on small screens
